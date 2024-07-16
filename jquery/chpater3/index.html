@@ -91,7 +91,7 @@
       };
 
       $('.start-button').on('click', function(){
-        is_continue = changeButton();
+        let is_continue = changeButton();
         if (is_continue == false) return;
         for (let key in fortuneResults) {
           // 1~3の乱数を生成
